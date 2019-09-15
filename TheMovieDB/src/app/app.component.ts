@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TheMovieDB';
+  @Input() Title = "Default"
+  @Input() Rating = 0;
+  @Input() ShortDescription: "Default"
+  @Input() Runtime = 0;
+  @Input() ReleaseDate = "00/00/0000"
+  @Input() MovieThumbnail = ""
+
 }
