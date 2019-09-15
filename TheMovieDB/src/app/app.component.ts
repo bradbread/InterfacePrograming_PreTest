@@ -6,11 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  @Input() Title = "Default"
-  @Input() Rating = 0;
-  @Input() ShortDescription: "Default"
-  @Input() Runtime = 0;
-  @Input() ReleaseDate = "00/00/0000"
-  @Input() MovieThumbnail = ""
-
+  Title = 'TheMovieDB';
 }
