@@ -11,7 +11,6 @@ export class MovieInfoComponent implements OnInit {
   @Input() ReleaseDate = "00/00/0000"
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {  }
 
 }

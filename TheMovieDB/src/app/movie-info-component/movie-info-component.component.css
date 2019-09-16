@@ -1,3 +1,11 @@
 .align{
     display: inline-block;
+    vertical-align: top;
+    margin-left: 15%;
+}
+
+.colour{
+    background-image: linear-gradient(rgb(17, 28, 36), rgb(28,50,48) );
+    padding: 2%;
+    margin-bottom: 5px;
 }

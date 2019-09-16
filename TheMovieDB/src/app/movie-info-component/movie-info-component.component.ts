@@ -6,12 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./movie-info-component.component.css']
 })
 export class MovieInfoComponentComponent implements OnInit {
-  @Input() Title = "Default"
-  @Input() Rating = 0;
-  @Input() ShortDescription: "Default"
-  @Input() Runtime = 0;
-  @Input() ReleaseDate = "00/00/0000"
-  @Input() MovieThumbnail = ""
+  @Input() Title = "Dragon Movie";
+  @Input() Rating = 6.5;
+  @Input() ShortDescription = "A young boy seaks to avenge his father's death at the hands of the dragon warrior.";
+  @Input() Runtime = 123;
+  @Input() ReleaseDate = "16/09/2019";
+  @Input() MovieThumbnail = "./assets/dragonmoviethumb.png";
 
   constructor() { }
 

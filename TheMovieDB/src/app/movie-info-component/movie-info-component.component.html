@@ -1,8 +1,13 @@
-<div class = "align">
-    <app-image></app-image>
-</div>
-<div class = "align">
-  <app-movie-title [Title] = Title></app-movie-title>
-  <app-movie-info></app-movie-info>
-  <app-description></app-description>
+<div class = "colour">
+  <div class = "align">
+    <app-image [MovieThumbnail] = MovieThumbnail></app-image>
+  </div>
+  <div class = "align">
+    <app-movie-title [Title] = Title></app-movie-title>
+    <app-movie-info [Rating] = Rating [Runtime] = Runtime [ReleaseDate] = ReleaseDate></app-movie-info>
+    <br>
+    <p>
+        <app-description [ShortDescription] = ShortDescription></app-description>
+    </p>
+  </div>
 </div>
